@@ -571,6 +571,10 @@ video {
   position: sticky;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1223,6 +1227,10 @@ video {
     margin-bottom: 2rem;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-md {
     max-width: 28rem;
   }
@@ -1230,6 +1238,10 @@ video {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .lg\:first-letter\:w-full::first-letter {
+    width: 100%;
   }
 }
 
